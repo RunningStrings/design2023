@@ -10,4 +10,4 @@ Det här är min portfolio för kursen [PA1436, Teknisk webbdesign och användba
 
 Jag heter Annie Gustafsson och bor i södra Östergötland. När jag inte pluggar och kodar och håller på, tycker jag om att springa i skogen, läsa böcker och fotografera.
 
-![Annie](%assets_url%/img/me_small.jpg)
+![Annie](%assets_url%/img/me_small.jpg) {.small}
