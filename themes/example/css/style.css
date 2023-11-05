@@ -104,6 +104,10 @@ img {
     max-width: 100%;
 }
 
+.main img {
+    max-width: 200px;
+}
+
 /* BELOW ARE PREPARED STYLES FOR CODE/PRE/BLOCKQUOTE, FEEL FREE TO REMOVE IT  */
 
 /* Code */
