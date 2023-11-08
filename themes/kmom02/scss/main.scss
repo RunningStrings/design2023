@@ -1,0 +1,46 @@
+/* main */
+
+.main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.main a {
+    color: #604328;
+    text-decoration: none;
+}
+
+.main a:hover {
+    color: #c29062;
+}
+
+p {
+    margin-bottom: 1.4rem;
+}
+
+.first-box {
+    background-color: #111;
+    box-sizing: content-box;
+    height: 100px;
+    width: 600px;
+}
+
+.second-box {
+    background-color: blue;
+    box-sizing: content-box;
+    height: 100px;
+    width: 100%;
+}
+
+.third-box {
+    background-color: red;
+    box-sizing: border-box;
+    height: 100px;
+    width: 50%;
+}
+
+.fourth-box {
+    background-color: green;
+    height: 100px;
+    width:100%
+}

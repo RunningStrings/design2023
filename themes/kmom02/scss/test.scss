@@ -1,0 +1,27 @@
+p.old-fashioned {
+    font-family: $old-fashioned-font;
+    font-size: 1.4em;
+    line-height: 1.4;
+    margin: 1.82rem auto;
+    width: 64rem;
+}
+
+p.modern {
+    font-family: $modern-font;
+    font-size: 1.4em;
+    letter-spacing: 1px;
+    line-height: 1.4;
+    margin: 1.82rem auto;
+    text-transform: uppercase;
+    width: 64rem;
+}
+
+p.worst-ever {
+    background-color: orange;
+    color: skyblue;
+    font-family: $worst-ever-font;
+    font-size: 2em;
+    letter-spacing: -10px;
+    line-height: 1em;
+    text-transform: lowercase;
+}
