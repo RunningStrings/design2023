@@ -1,6 +1,6 @@
 ---
 Logo: image/coffee_icon.png
-Tagline: Annies portfolio
+Tagline: Annie's portfolio
 Social:
     - title: Link till sidans github repo.
       url: https://github.com/RunningStrings/design2023
