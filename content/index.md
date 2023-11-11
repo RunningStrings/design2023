@@ -5,13 +5,13 @@ Description: This is our index page.
 
 ![Annie](image/me2_320x320.jpg) {.small}
 
-Hej!
+Hi there!
 ==========================
 
-Jag heter Annie Gustafsson, och det här är min portfolio för kursen [PA1436, Teknisk webbdesign och användbarhet](https://dbwebb.se/kurser/design-v3).
+My name is Annie Gustafsson, and this is my portfolio for the course [PA1436, Teknisk webbdesign och användbarhet](https://dbwebb.se/kurser/design-v3).
 
-Sedan ett antal år bor jag i södra Östergötland, där jag är född och uppvuxen, men jag har också bott i Lund och Malmö, och en liten vända i Växjö.
+For a number of years I have been living in southern Östergötland, where I was born and raised, but I have also lived in Lund and Malmö, with a short stint in Växjö before that.
 
-Tidigare har jag pluggat juridik och litteraturvetenskap, men har alltid sneglat åt det här hållet - datorer, problemlösning, utveckling - och byggde några enklare webbsidor när jag var i tonåren. När jag för ett drygt år sedan upptäckte att man kan läsa webbprogrammering på distans kändes det rätt, så här är jag nu. Mycket nytt, högt tempo, och väldigt, väldigt roligt.
+Previously I have studied law and literature, but I've always had a soft spot for this field - computers, problem solving, development - and I built some basic web sites when I was a teenager. When I discovered a little over a year ago that you can study web development remotely, it felt right, and so, here I am. There's a lot to learn, it's fast paced, and I'm having so much fun.
 
-När jag inte pluggar och kodar, tycker jag om att springa i skogen, läsa böcker och fotografera.
+When I'm not studying and writing code, I enjoy running in nature, reading books, and taking photos.
