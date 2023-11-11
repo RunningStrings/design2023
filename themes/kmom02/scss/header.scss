@@ -18,14 +18,15 @@
 } */
 
 .nav a {
-    color: #604328;
-    font-size: 1.4rem;
+    color: $font-color;
+    font-size: 1.2rem;
     text-decoration: none;
+    transition: color 0.1s, border-bottom 0.1s;
 }
 
 .nav a:hover {
-    border-bottom: 2px solid #c29062;
-    color: #c29062;
+    border-bottom: 2px solid $link-hover-color;
+    color: $link-hover-color;
 }
 
 /* Title */
@@ -52,7 +53,7 @@
 }
 
 .title * {
-    color: #111;
+    color: $font-color;
     text-decoration: none;
 }
 

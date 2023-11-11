@@ -1,22 +1,45 @@
 /* main */
 
 .main {
-    width: 80%;
+    font-size: 1.1em;
+    line-height: 1.2;
+    max-width: 75ch;
     margin: 0 auto;
+    padding-bottom: 2rem;
+    text-align: justify;
 }
 
+.main h1 {
+    vertical-align: top;
+}
 .main a {
-    color: #604328;
+    color: $link-color;
     text-decoration: none;
 }
 
 .main a:hover {
-    color: #c29062;
+    color: $link-hover-color;
+}
+
+@media only screen and (max-width:600px ) {
+    .main {
+        font-size: 1.2em;
+        line-height: 1.4;
+        max-width: 100%;
+        padding: 0 1rem;
+        padding-bottom: 1rem;
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 p {
-    margin-bottom: 1.4rem;
+    margin-bottom: 1.2rem;
 }
+
+// p.right-text {
+//     text-align: justify;
+// }
 
 .first-box {
     background-color: #111;
