@@ -3,7 +3,7 @@ Title: Hobby
 Description: Page about my hobby
 ---
 
-Min hobby
+My hobby
 ==================
 
-Får man bara välja en? Det blir svårt. Jag tycker ju om löpning och böcker och musik, och så lite bildkonst i olika former på det. I contain multitudes.
+Can I only pick one? That'll be difficult. I like running and books and music, and a bit of visual art in various forms on top of that. I contain multitudes.
