@@ -3,6 +3,8 @@ Title: Home
 Description: This is our index page.
 ---
 
+![Annie](image/me2_320x320.jpg) {.small}
+
 Hej!
 ==========================
 
@@ -13,5 +15,3 @@ Sedan ett antal år bor jag i södra Östergötland, där jag är född och uppv
 Tidigare har jag pluggat juridik och litteraturvetenskap, men har alltid sneglat åt det här hållet - datorer, problemlösning, utveckling - och byggde några enklare webbsidor när jag var i tonåren. När jag för ett drygt år sedan upptäckte att man kan läsa webbprogrammering på distans kändes det rätt, så här är jag nu. Mycket nytt, högt tempo, och väldigt, väldigt roligt.
 
 När jag inte pluggar och kodar, tycker jag om att springa i skogen, läsa böcker och fotografera.
-
-![Annie](image/me2_320x320.jpg) {.small}
