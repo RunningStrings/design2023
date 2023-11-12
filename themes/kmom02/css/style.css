@@ -390,7 +390,6 @@ body {
   text-decoration: none;
   transition: color 0.1s, border-bottom 0.1s;
 }
-
 .nav a:hover {
   border-bottom: 2px solid #c29062;
   color: #c29062;
@@ -424,6 +423,10 @@ body {
 
 .title p {
   font-style: italic;
+  transition: color 0.1s;
+}
+.title p:hover {
+  color: #c29062;
 }
 
 /* main */
@@ -443,8 +446,8 @@ body {
 .main a {
   color: #604328;
   text-decoration: none;
+  transition: color 0.1s;
 }
-
 .main a:hover {
   color: #c29062;
 }
@@ -464,31 +467,12 @@ p {
   margin-bottom: 1.2rem;
 }
 
-.first-box {
-  background-color: #111;
-  box-sizing: content-box;
-  height: 100px;
-  width: 600px;
+ul {
+  list-style-type: circle;
 }
 
-.second-box {
-  background-color: blue;
-  box-sizing: content-box;
-  height: 100px;
-  width: 100%;
-}
-
-.third-box {
-  background-color: red;
-  box-sizing: border-box;
-  height: 100px;
-  width: 50%;
-}
-
-.fourth-box {
-  background-color: green;
-  height: 100px;
-  width: 100%;
+.bold-link {
+  font-weight: bold;
 }
 
 /* Footer */
@@ -503,16 +487,16 @@ p {
 
 @media only screen and (max-width: 600px) {
   .footer {
-    padding: 2rem 2rem;
+    padding: 2rem;
   }
 }
-.footer i.fa.fa-github,
-.footer i.fa.fa-instagram {
+.footer .fa.fa-github,
+.footer .fa.fa-instagram {
   color: #604328;
   transition: color 0.2s;
 }
-.footer i.fa.fa-github:hover,
-.footer i.fa.fa-instagram:hover {
+.footer .fa.fa-github:hover,
+.footer .fa.fa-instagram:hover {
   color: #c29062;
 }
 
@@ -524,7 +508,6 @@ p {
   color: #fff;
   text-decoration: none;
 }
-
 .footer .social a:hover {
   color: #c29062;
 }
@@ -537,15 +520,17 @@ p {
 .footer .social .i a {
   color: #604328;
 }
+.footer .social .i a:hover {
+  color: #c29062;
+}
 
 img {
   max-width: 100%;
 }
 
-img.small {
+.small {
   border: 2px solid #eee;
   border-radius: 5px;
-  box-shadow: 0 2px 3px #c29062;
   float: left;
   margin-bottom: 5px;
   margin-right: 15px;
@@ -554,7 +539,34 @@ img.small {
   vertical-align: top;
 }
 
-p.old-fashioned {
+.first-box {
+  background-color: #111;
+  box-sizing: content-box;
+  height: 100px;
+  width: 600px;
+}
+
+.second-box {
+  background-color: #00F;
+  box-sizing: content-box;
+  height: 100px;
+  width: 100%;
+}
+
+.third-box {
+  background-color: #F00;
+  box-sizing: border-box;
+  height: 100px;
+  width: 50%;
+}
+
+.fourth-box {
+  background-color: #008000;
+  height: 100px;
+  width: 100%;
+}
+
+.old-fashioned {
   font-family: "Georgia", "Times New Roman", Times, serif;
   font-size: 1.4em;
   line-height: 1.4;
@@ -562,7 +574,7 @@ p.old-fashioned {
   width: 64rem;
 }
 
-p.modern {
+.modern {
   font-family: "Montserrat", sans-serif;
   font-size: 1.4em;
   letter-spacing: 1px;
@@ -572,9 +584,9 @@ p.modern {
   width: 64rem;
 }
 
-p.worst-ever {
-  background-color: orange;
-  color: skyblue;
+.worst-ever {
+  background-color: #ffa600;
+  color: #87ceeb;
   font-family: "Courier New", Courier, monospace;
   font-size: 2em;
   letter-spacing: -10px;
