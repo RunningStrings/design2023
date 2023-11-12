@@ -1,8 +1,8 @@
 ---
 Logo: image/coffee_icon.png
-Tagline: Annie's portfolio
+Tagline: Annie Gustafsson
 Social:
-    - title: Link till sidans github repo.
+    - title: The web site's repo on GitHub.
       url: https://github.com/RunningStrings/design2023
       icon: github
     - title: Instagram
