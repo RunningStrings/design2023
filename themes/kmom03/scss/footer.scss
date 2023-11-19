@@ -1,0 +1,52 @@
+/* Footer */
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid $accent-color;
+    background-color: $background-color;
+    color: $font-alternative-color;
+    padding: 2rem 6rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .footer {
+        padding: 2rem;
+    }
+}
+
+.footer .fa.fa-github,
+.footer .fa.fa-instagram {
+    color: $link-color;
+    transition: color 0.2s;
+
+    &:hover {
+        color: $link-hover-color;
+    }
+}
+
+.footer .footer-text {
+    display:none;
+}
+
+.footer .social a {
+    color: $font-alternative-color;
+    text-decoration: none;
+
+    &:hover {
+        color: $link-hover-color;
+    }
+}
+
+.footer .social {
+    font-size: 2rem;
+    margin-left: auto;
+}
+
+.footer .social .i a {
+    color: $link-color;
+
+    &:hover {
+        color: $link-hover-color;
+    }
+}
