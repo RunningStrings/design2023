@@ -7,13 +7,17 @@
         <div class="single-technology">
             <div class="tech-menu">
                 <h3>Technologies</h3>
-                {% for page in pages("technology")|sort if not page.hidden %}
-                    <div class="tech-post">
-                        <ul>
-                            <li><a href="{{ page.url }}">{{ page.title }}</a></li>
-                        </ul>
-                    </div>
-                {% endfor %}
+                <ul>
+                    {% for page in pages("technology")|sort_by('title') if not page.hidden %}
+                        <div class="tech-post">
+                            <li>
+                                <a href="{{ page.url }}" {% if page.url == current_page.url %}class="active"{% endif %}>
+                                    {{ page.title }}
+                                </a>
+                            </li>
+                        </div>
+                    {% endfor %}
+                </ul>
             </div>
             <div class="tech-content">
                 {{ content }}
