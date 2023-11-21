@@ -77,9 +77,7 @@
 .tech-post a {
     color: $link-color;
     transition: color 0.1s;
-    // font-weight: bold;
     font-family: $header-font;
-    // font-size: 0.9em;
 
     &:hover {
         color: $link-hover-color;
@@ -87,7 +85,11 @@
     }
 }
 
-.tech-post ul {
+.active {
+    background-color: $link-active-color;
+}
+
+.tech-menu ul {
     list-style-type: none;
 }
 
