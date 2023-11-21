@@ -29,6 +29,10 @@
     }
 }
 
+.active a {
+    background-color: $link-active-color;
+}
+
 /* Title */
 
 .title, .logo {
