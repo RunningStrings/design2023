@@ -397,6 +397,10 @@ body {
   color: #c29062;
 }
 
+.active a {
+  background-color: #FFF5EB;
+}
+
 /* Title */
 .title, .logo {
   padding: 3em 3em 3em 0;
@@ -716,7 +720,11 @@ pre code {
   text-decoration: underline;
 }
 
-.tech-post ul {
+.active {
+  background-color: #FFF5EB;
+}
+
+.tech-menu ul {
   list-style-type: none;
 }
 
