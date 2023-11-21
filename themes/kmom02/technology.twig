@@ -6,9 +6,17 @@
     <div class="main" role="main">
         <div class="single-technology">
             <div class="tech-menu">
+                <h3>Technologies</h3>
+                {% for page in pages("technology")|sort if not page.hidden %}
+                    <div class="tech-post">
+                        <ul>
+                            <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+                        </ul>
+                    </div>
+                {% endfor %}
+            </div>
             <div class="tech-content">
                 {{ content }}
-            </div>
             </div>
         </div>
     </div>
