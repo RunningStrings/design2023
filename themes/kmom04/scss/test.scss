@@ -1,0 +1,54 @@
+.first-box {
+    background-color: #111;
+    box-sizing: content-box;
+    height: 100px;
+    width: 600px;
+}
+
+.second-box {
+    background-color: #00F;
+    box-sizing: content-box;
+    height: 100px;
+    width: 100%;
+}
+
+.third-box {
+    background-color: #F00;
+    box-sizing: border-box;
+    height: 100px;
+    width: 50%;
+}
+
+.fourth-box {
+    background-color: #008000;
+    height: 100px;
+    width:100%
+}
+
+.old-fashioned {
+    font-family: $old-fashioned-font;
+    font-size: 1.4em;
+    line-height: 1.4;
+    margin: 1.82rem auto;
+    width: 64rem;
+}
+
+.modern {
+    font-family: $modern-font;
+    font-size: 1.4em;
+    letter-spacing: 1px;
+    line-height: 1.4;
+    margin: 1.82rem auto;
+    text-transform: uppercase;
+    width: 64rem;
+}
+
+.worst-ever {
+    background-color: #ffa600;
+    color: #87ceeb;
+    font-family: $worst-ever-font;
+    font-size: 2em;
+    letter-spacing: -10px;
+    line-height: 1em;
+    text-transform: lowercase;
+}

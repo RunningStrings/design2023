@@ -1,0 +1,31 @@
+{% include 'incl/header.twig' %}
+
+<body>
+    {% include 'incl/nav.twig' %}
+
+    <div class="main" role="main">
+        <div class="single-technology">
+            <div class="tech-menu">
+                <h3>Technologies</h3>
+                <ul>
+                    {% for page in pages("technology")|sort_by('title') if not page.hidden %}
+                        <div class="tech-post">
+                            <li>
+                                <a href="{{ page.url }}" {% if page.url == current_page.url %}class="active"{% endif %}>
+                                    {{ page.title }}
+                                </a>
+                            </li>
+                        </div>
+                    {% endfor %}
+                </ul>
+            </div>
+            <div class="tech-content">
+                {{ content }}
+            </div>
+        </div>
+    </div>
+
+    {% include 'incl/footer.twig' %}
+</body>
+
+</html>
