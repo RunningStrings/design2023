@@ -10,8 +10,8 @@ Social:
       icon: fab fa-instagram
     - title: Dark Mode
       url: ?action=theme
-      icon: fas fa-moon
+      icon: far fa-moon
     - title: Destroy Session
       url: ?action=session_destroy
-      icon: fas fa-trash-alt
+      icon: fas fa-meteor
 ---
