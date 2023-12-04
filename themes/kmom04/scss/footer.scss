@@ -3,8 +3,8 @@
 .footer {
     display: flex;
     justify-content: space-between;
-    border-top: 2px solid $accent-color;
-    background-color: $background-color;
+    border-top: 2px solid $accent-color-alternative;
+    background-color: $background-header-footer;
     color: $font-alternative-color;
     padding: 2rem 6rem;
 }
@@ -30,10 +30,13 @@
 
 .footer .social a {
     color: $font-alternative-color;
+    display: inline-block;
     text-decoration: none;
+    transition: transform 0.1s ease;
 
     &:hover {
         color: $link-hover-color;
+        transform: scale(1.1);
     }
 }
 
@@ -44,6 +47,7 @@
 
 .footer .social .i a {
     color: $link-color;
+    
 
     &:hover {
         color: $link-hover-color;

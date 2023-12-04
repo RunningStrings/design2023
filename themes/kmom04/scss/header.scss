@@ -5,6 +5,11 @@
     justify-content: space-between;
 }
 
+.header {
+    background-color: $background-header-footer;
+    border-bottom: 2px solid $accent-color-alternative;
+}
+
 /* .nav li:first-child {
     background-color: #f0f;
 }
@@ -19,13 +24,15 @@
 
 .nav a {
     color: $font-color;
+    display: inline-block;
     font-size: 1.2rem;
     text-decoration: none;
-    transition: color 0.1s, border-bottom 0.1s;
+    transition: color 0.1s, border-bottom 0.1s, transform 0.1s ease;
 
     &:hover {
-        border-bottom: 2px solid $link-hover-color;
+        // border-bottom: 2px solid $link-hover-color;
         color: $link-hover-color;
+        transform: scale(1.075);
     }
 }
 

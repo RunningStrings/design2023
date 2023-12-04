@@ -4,7 +4,7 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import'../../shared/fontawesome/scss/brands';
 @import '../../shared/fontawesome/scss/solid';
 @import '../../shared/fontawesome/scss/regular';
-@import 'variables';
+@import 'variables-dark';
 
 @import 'typography';
 
@@ -20,6 +20,10 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import 'code';
 @import 'technologies';
 
-body {
-    background-color: $background-dark-color;
-}
+// body {
+//     background-color: $background-dark-color;
+// }
+
+// .main {
+//     background-color: $background-color;
+// }
