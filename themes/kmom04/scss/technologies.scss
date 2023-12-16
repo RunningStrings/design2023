@@ -40,6 +40,7 @@
     color: $accent-color;
     font-family: $header-font;
     font-size: 1.75em;
+    text-decoration: none;
 }
 
 .box.span1 {
@@ -80,7 +81,7 @@
     font-family: $header-font;
 
     &:hover {
-        color: $link-hover-color;
+        color: $link-hover-color-content;
         text-decoration: underline;
     }
 }
@@ -95,6 +96,14 @@
 
 .tech-content {
     width: 70%;
+}
+
+.tech-content h2 {
+    margin: 0.335em 0;
+}
+
+.tech-content h3 {
+    margin: 0.1675em 0;
 }
 
 @media only screen and (max-width: 600px) {

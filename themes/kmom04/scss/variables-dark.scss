@@ -7,13 +7,16 @@ $background-color: #281B10;
 $background-alternative-color: #442F1C;
 $background-header-footer: #281B10;
 $background-dark-color: #604328;
+$darkest-text: #281B10;
 $content-color: #281B10;
-$content-alternative-color: #442F1C;
 $image-border-color: #7d6650;
 $link-color: #C3B7AC;
 $link-hover-color: #c29062;
+$link-hover-color-content:#c29062;
 $link-active-color: #FFF5EB10;
-$image-filter: sepia(0.20);
+$image-filter: saturate(150%);
+$logo-filter: drop-shadow(0 0 0.75rem #c29062);
+$logo-filter-hover: drop-shadow(0 0 0.75rem #E97F46);
 
 $header-font: 'Montserrat', sans-serif;
 $main-font: 'GFS-Didot', serif;

@@ -17,10 +17,12 @@
 .main a {
     color: $link-color;
     text-decoration: none;
-    transition: color 0.1s;
+    transition: color 0.1s ease-in-out, text-decoration 0.1s ease-in-out;
 
     &:hover {
-        color: $link-hover-color;
+        color: $link-hover-color-content;
+        text-decoration: underline;
+        text-decoration-skip-ink: auto;
     }
 }
 
@@ -46,4 +48,8 @@ ul {
 
 .bold-link {
     font-weight: bold;
+}
+
+code {
+    color: $darkest-text;
 }
