@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=GFS+Didot&family=Montserrat&display=swap');
 $font-color: #E0D2C5;
 $font-alternative-color: #fff;
+$font-alternative-color-dark: #000;
 $accent-color: #c29062;
 $accent-color-alternative: #c29062;
 $background-color: #281B10;
@@ -12,11 +13,12 @@ $content-color: #281B10;
 $image-border-color: #7d6650;
 $link-color: #C3B7AC;
 $link-hover-color: #c29062;
-$link-hover-color-content:#c29062;
+$link-hover-color-content: #c29062;
 $link-active-color: #FFF5EB10;
 $image-filter: saturate(150%);
 $logo-filter: drop-shadow(0 0 0.75rem #c29062);
 $logo-filter-hover: drop-shadow(0 0 0.75rem #E97F46);
+$table-border-color: #442F1C;
 
 $header-font: 'Montserrat', sans-serif;
 $main-font: 'GFS-Didot', serif;

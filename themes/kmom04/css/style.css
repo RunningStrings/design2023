@@ -6518,7 +6518,7 @@ body {
 }
 
 .active a {
-  background-color: rgba(66, 49, 115, 0.1);
+  background-color: rgba(0, 44, 51, 0.1);
 }
 
 /* Title */
@@ -6687,6 +6687,20 @@ img {
 }
 .logo:hover {
   filter: none;
+}
+
+.screenshot-preview {
+  max-height: 200px;
+  width: auto;
+  cursor: pointer;
+}
+
+.wheel {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding: 5px;
 }
 
 .first-box {
@@ -6866,7 +6880,7 @@ pre code {
 }
 
 .active {
-  background-color: rgba(66, 49, 115, 0.1);
+  background-color: rgba(0, 44, 51, 0.1);
 }
 
 .tech-menu ul {
@@ -6904,13 +6918,28 @@ pre code {
     display: none;
   }
 }
-table.color-table {
+.tech-content table {
+  border: solid 1px #F2E1D3;
+  border-collapse: collapse;
+  margin-bottom: 1.2rem;
+  width: 100%;
+}
+
+.tech-content table th,
+.tech-content table td {
+  border: solid 1px #F2E1D3;
+  padding: 0 5px;
+}
+
+.color-table {
+  border-style: none;
   border-spacing: 4px;
   border-collapse: separate;
   margin-bottom: 1.2rem;
 }
 
-table.color-table td {
+.color-table td {
+  border-style: none;
   height: 50px;
   width: 50px;
   color: #333;
@@ -6922,6 +6951,38 @@ table.color-table td {
   vertical-align: top;
 }
 
-table.color-table td.light {
+.color-table .light {
   color: #fff;
+}
+
+.color-table .dark {
+  color: #000;
+}
+
+.color-table-small {
+  border-style: none;
+  border-spacing: 4px;
+  border-collapse: separate;
+  margin-bottom: 1.2rem;
+  width: 100%;
+}
+
+.color-table-small td {
+  border-style: none;
+  height: 50px;
+  width: 50px;
+  color: #333;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.7em;
+  padding: 5px;
+  text-align: center;
+  vertical-align: top;
+}
+
+.color-table-small .light {
+  color: #fff;
+}
+
+.color-table-small .dark {
+  color: #000;
 }

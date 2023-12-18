@@ -22,3 +22,17 @@ img {
         filter: $logo-filter-hover;
     }
 }
+
+.screenshot-preview {
+    max-height: 200px;
+    width: auto;
+    cursor: pointer;
+}
+
+.wheel {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 5px;
+}
